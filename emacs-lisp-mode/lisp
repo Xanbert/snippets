@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: lisp
+# key: el-init
+# --
+;;;; `(nth 0 (split-string (file-name-nondirectory buffer-file-name) "\\."))` --- $0
+
+;;; `(file-name-nondirectory buffer-file-name)`
+;;; Commentary:
+
+;; $1
+
+;;; Code:
+
+
+
+(provide '`(nth 0 (split-string (file-name-nondirectory buffer-file-name) "\\."))`)
+;;; `(file-name-nondirectory buffer-file-name)` ends here
